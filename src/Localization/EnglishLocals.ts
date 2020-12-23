@@ -1,5 +1,8 @@
 import { ILocals } from './Locals';
 export const EnglishLocals: ILocals = {
+    login: 'Login',
+    password: 'Password',
+    username: 'Username',
     close: 'Close',
     home: 'Home',
     about_us: 'About Us',

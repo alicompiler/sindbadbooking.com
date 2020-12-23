@@ -3,6 +3,9 @@ import { ArabicLocals } from './ArabicLocals';
 import { getCurrentLanguage } from "./Language";
 
 interface ILocals {
+    login: string;
+    password: string;
+    username: string;
     close: string;
     home: string;
     about_us: string;

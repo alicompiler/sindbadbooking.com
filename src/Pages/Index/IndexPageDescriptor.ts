@@ -30,6 +30,7 @@ export interface LandingPageDescriptor {
     images: string[];
     interval: number;
     opacity: number;
+    imageUrl: string;
 }
 
 

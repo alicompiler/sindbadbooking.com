@@ -1,5 +1,8 @@
 import { ILocals } from './Locals';
 export const ArabicLocals: ILocals = {
+    login: 'تسجيل الدخول',
+    password: 'كلمة المرور',
+    username: 'اسم المستخدم',
     close: 'اغلاق',
     home: 'الرئيسية',
     about_us: 'من نحن',
