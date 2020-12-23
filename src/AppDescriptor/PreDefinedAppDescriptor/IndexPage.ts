@@ -1,8 +1,9 @@
-import { Locals } from '../../Localization/Locals';
-import { IndexPageDescriptor } from './../../Pages/Index/IndexPageDescriptor';
+import {IndexPageDescriptor} from '../../Pages/Index/IndexPageDescriptor';
+
 export const indexPage: IndexPageDescriptor = {
     sections: {
         landing: {
+            imageUrl: "/res/bg/world.jpg",
             images: [
                 '/res/bg/world.jpg',
                 '/res/bg/africa.jpg',
@@ -84,83 +85,39 @@ export const indexPage: IndexPageDescriptor = {
                 },
             ],
         },
-        partners: {
-            partners: [
-                {
-                    details: [
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                    ],
-                    logo: 'https://www.tareekofuk.com/images/partners/partners_1.png',
-                    title: { ar: 'الخطوط الجوية القطرية', en: 'Qatar Airways' }
-                },
-                {
-                    details: [
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                    ],
-                    logo: 'https://www.tareekofuk.com/images/partners/partners_2.png',
-                    title: { ar: 'الخطوط الجوية الاماراتية', en: 'Eumarts' }
-                },
-                {
-                    details: [
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                    ],
-                    logo: 'https://www.tareekofuk.com/images/partners/partners_3.png',
-                    title: { ar: 'فلاي دبي', en: 'Flydubai' }
-                },
-                {
-                    details: [
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                        { ar: 'كلمة كلمة كلمة كلمة كلمة', en: 'XYZ ABC XYZ ABC XYZ ABC XYZ ABC XYZ ABC' },
-                    ],
-                    logo: 'https://www.tareekofuk.com/images/partners/partners_4.png',
-                    title: { ar: 'الخطوط الجوية العراقية', en: 'Iraqi Airways' }
-                },
-            ],
-            sliderSettings: {
-                infinite: true,
-                speed: 500,
-                autoplaySpeed: 5000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                swipeToSlide: true
-            }
-        },
         contact: {
             emails: [
                 'me@tareekofuk.com',
                 'dv@tareekofuk.com'
             ],
             addresses: [
-                { ar: 'العراق - بغداد - المنصور', en: 'Iraq - Baghdad - Almansoor' },
-                { ar: 'العراق - النجف - شارع الروان', en: 'Iraq - Najaf - Alrawan' },
-                { ar: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2', en: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2' },
+                {ar: 'العراق - بغداد - المنصور', en: 'Iraq - Baghdad - Almansoor'},
+                {ar: 'العراق - النجف - شارع الروان', en: 'Iraq - Najaf - Alrawan'},
+                {
+                    ar: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2',
+                    en: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2'
+                },
             ],
             phones: [
-                { ar: '6034 (العراق)', en: '6034 (Iraq)' },
-                { ar: '+9647817777214 (النجف)', en: '+9647814115368 (Baghdad)' },
-                { ar: '+9647814115368 (بغداد)', en: '+9647817777214 (Najaf)' },
-                { ar: '+905364347663 (اسطنبول)', en: '+905364347663 (Istanbul)' },
+                {ar: '6034 (العراق)', en: '6034 (Iraq)'},
+                {ar: '+9647817777214 (النجف)', en: '+9647814115368 (Baghdad)'},
+                {ar: '+9647814115368 (بغداد)', en: '+9647817777214 (Najaf)'},
+                {ar: '+905364347663 (اسطنبول)', en: '+905364347663 (Istanbul)'},
             ]
         },
-        destination: {
-            title: { ar: Locals.destinations, en: Locals.destinations },
-            destinationsKeys: ["roma", "dubai", "tehran"]
+        airlines: {
+            images: [
+                "https://www.tareekofuk.com/images/partners/partners_1.png",
+                "https://www.tareekofuk.com/images/partners/partners_2.png",
+                "https://www.tareekofuk.com/images/partners/partners_3.png",
+                "https://www.tareekofuk.com/images/partners/partners_4.png",
+                "https://www.tareekofuk.com/images/partners/partners_5.png",
+                "https://www.tareekofuk.com/images/partners/partners_6.png",
+                "https://www.tareekofuk.com/images/partners/partners_7.png",
+                "https://www.tareekofuk.com/images/partners/partners_1.png",
+                "https://www.tareekofuk.com/images/partners/partners_2.png",
+                "https://www.tareekofuk.com/images/partners/partners_3.png",
+            ]
         }
     }
 

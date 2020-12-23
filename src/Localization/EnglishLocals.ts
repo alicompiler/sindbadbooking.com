@@ -1,5 +1,13 @@
-import { ILocals } from './Locals';
+import {ILocals} from './Locals';
+
 export const EnglishLocals: ILocals = {
+    address: "Address",
+    city: "City",
+    company_name: "Company Name",
+    person_name: "Name",
+    phone: "Phone",
+    register: 'Register',
+    airlines: 'Airlines',
     login: 'Login',
     password: 'Password',
     username: 'Username',

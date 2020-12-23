@@ -1,5 +1,5 @@
-import { LocalString } from './../../Localization/Language';
-import { PageDescriptor } from '../../AppDescriptor/AppDescriptor';
+import {LocalString} from '../../Localization/Language';
+import {PageDescriptor} from '../../AppDescriptor/AppDescriptor';
 
 export interface IndexPageDescriptor extends PageDescriptor {
     sections: {
@@ -7,15 +7,10 @@ export interface IndexPageDescriptor extends PageDescriptor {
         services: {
             services: Service[];
         },
-        partners: {
-            partners: Partner[];
-            sliderSettings: any;
-        },
-        contact: ContactInfo;
-        destination: {
-            title: LocalString;
-            destinationsKeys: string[];
+        airlines: {
+            images: string[];
         }
+        contact: ContactInfo;
     };
 }
 

@@ -1,5 +1,13 @@
-import { ILocals } from './Locals';
+import {ILocals} from './Locals';
+
 export const ArabicLocals: ILocals = {
+    address: "العنوان",
+    city: "المدينة",
+    company_name: "اسم الشركة",
+    person_name: "الاسم",
+    phone: "رقم الهاتف",
+    register: 'التسجيل',
+    airlines: 'الخطوط الجوية',
     login: 'تسجيل الدخول',
     password: 'كلمة المرور',
     username: 'اسم المستخدم',
@@ -19,5 +27,5 @@ export const ArabicLocals: ILocals = {
     description: 'التفاصيل',
     duration: 'المدة',
     for_booking: 'للحجز',
-    images: 'الصور',
+    images: 'الصور'
 }

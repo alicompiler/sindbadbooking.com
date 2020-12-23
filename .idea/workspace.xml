@@ -2,27 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="958b8024-d17b-4067-bf5b-038bc1c730b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/FakeAppDescriptorRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppDescriptor/FakeAppDescriptorRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/AboutPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/DestinationPage.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlineItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlinesList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlinesSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/RegistrationSection/RegistrationForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/RegistrationSection/RegistrationSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/IndexPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/IndexPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationImages.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationInfoItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationModal.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Localization/ArabicLocals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/ArabicLocals.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Localization/EnglishLocals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/EnglishLocals.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Localization/Locals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/Locals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/LandingPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/LandingPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/LandingPageBackground.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/MainContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/DestinationsSection/DestinationsSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/ImagesComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/ImagesComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Partners/PartnerItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Partners/PartnersSection.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Index/IndexPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/IndexPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Index/IndexPageDescriptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/IndexPageDescriptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,10 +48,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608737134455</updated>
-      <workItem from="1608737140057" duration="252000" />
+      <workItem from="1608737140057" duration="4221000" />
     </task>
     <servers />
   </component>

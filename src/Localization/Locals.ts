@@ -1,8 +1,15 @@
-import { EnglishLocals } from './EnglishLocals';
-import { ArabicLocals } from './ArabicLocals';
-import { getCurrentLanguage } from "./Language";
+import {EnglishLocals} from './EnglishLocals';
+import {ArabicLocals} from './ArabicLocals';
+import {getCurrentLanguage} from "./Language";
 
 interface ILocals {
+    company_name: string;
+    person_name: string;
+    city: string;
+    address: string;
+    phone: string;
+    register: string;
+    airlines: string;
     login: string;
     password: string;
     username: string;
@@ -22,7 +29,7 @@ interface ILocals {
     partners: string;
     destinations: string;
     contact_us: string;
-    services : string;
+    services: string;
 }
 
 
@@ -37,6 +44,5 @@ if (lang === "ar") {
 }
 
 
-
-export { _locals as Locals }
-export type { ILocals }
+export {_locals as Locals}
+export type {ILocals}

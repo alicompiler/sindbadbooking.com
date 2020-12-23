@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export class ImagesComponent extends Component {
 
     render() {
-        const images = window["main_images"] as string[];
+        const images = (window as any)["main_images"] as string[];
         return (
             <div className={'grid cols-1 md:grid-cols-2 gap-4 w-full h-full h-auto'}>
                 {
