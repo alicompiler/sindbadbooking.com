@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="958b8024-d17b-4067-bf5b-038bc1c730b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlineItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlinesList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection/AirlinesSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/RegistrationSection/RegistrationForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Index/Components/RegistrationSection/RegistrationSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ContactInformation/ContactInformation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/AppDescriptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppDescriptor/AppDescriptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppDescriptor/FakeAppDescriptorRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppDescriptor/FakeAppDescriptorRepository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/IndexPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppDescriptor/PreDefinedAppDescriptor/IndexPage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationImages.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationInfoItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DestinationModel/DestinationModal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Localization/ArabicLocals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/ArabicLocals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Localization/EnglishLocals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/EnglishLocals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Localization/Locals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Localization/Locals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/DestinationsSection/DestinationsSection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/ImagesComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/Components/Landing/ImagesComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Partners/PartnerItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Partners/PartnersSection.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Index/IndexPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/IndexPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/FooterContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/FooterContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Contact/AddressComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactInformation/AddressComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Contact/ContactForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Contact/ContactSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Contact/EmailComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactInformation/EmailComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Index/Components/Contact/PhoneComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactInformation/PhoneComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Index/IndexPageDescriptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Index/IndexPageDescriptor.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/ContactInformation" />
+      <recent name="$PROJECT_DIR$/src/Components/Footer" />
       <recent name="$PROJECT_DIR$/src/Pages/Index/Components/AirlinesSection" />
     </key>
   </component>
@@ -70,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608737134455</updated>
-      <workItem from="1608737140057" duration="4221000" />
+      <workItem from="1608737140057" duration="5504000" />
     </task>
     <servers />
   </component>

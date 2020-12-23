@@ -10,7 +10,6 @@ export interface IndexPageDescriptor extends PageDescriptor {
         airlines: {
             images: string[];
         }
-        contact: ContactInfo;
     };
 }
 
@@ -33,11 +32,4 @@ export interface Partner {
     logo: string;
     title: LocalString;
     details: LocalString[];
-}
-
-
-export interface ContactInfo {
-    emails: string[];
-    phones: LocalString[];
-    addresses: LocalString[];
 }

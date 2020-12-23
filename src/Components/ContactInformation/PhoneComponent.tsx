@@ -1,4 +1,4 @@
-import { getCurrentLanguage, LocalString } from "../../../../Localization/Language";
+import { getCurrentLanguage, LocalString } from "../../Localization/Language";
 import * as React from "react";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { LocalString } from './../Localization/Language';
+import {LocalString} from '../Localization/Language';
 
 export interface AppDescriptor {
     meta: AppMetadataDescriptor;
@@ -7,6 +7,13 @@ export interface AppDescriptor {
     };
     socialMedia: SocialMediaDescriptor[];
     menu: MenuDescriptor;
+    contactInfo: ContactInfo;
+}
+
+export interface ContactInfo {
+    emails: string[];
+    phones: LocalString[];
+    addresses: LocalString[];
 }
 
 export interface AppMetadataDescriptor {
@@ -20,6 +27,7 @@ export interface PageDescriptor {
     sections: {
         [sectionName: string]: SectionDescriptor;
     };
+
     [propertyName: string]: any;
 }
 
@@ -49,6 +57,7 @@ export enum AppDescriptorActionType {
     DOM_ID = "DOM_ID",
     CHANGE_LANGUAGE = "CHANGE_LANGUAGE"
 }
+
 export interface AppActionDescriptor {
     type: AppDescriptorActionType;
     value: any;
