@@ -30,16 +30,9 @@ const appDescriptor: AppDescriptor = {
         addresses: [
             {ar: 'العراق - بغداد - المنصور', en: 'Iraq - Baghdad - Almansoor'},
             {ar: 'العراق - النجف - شارع الروان', en: 'Iraq - Najaf - Alrawan'},
-            {
-                ar: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2',
-                en: 'Türkiye-İstanbul-Şişli-Harbiye Mısırlı Plaza No:51/2'
-            },
         ],
         phones: [
-            {ar: '6034 (العراق)', en: '6034 (Iraq)'},
-            {ar: '+9647817777214 (النجف)', en: '+9647814115368 (Baghdad)'},
-            {ar: '+9647814115368 (بغداد)', en: '+9647817777214 (Najaf)'},
-            {ar: '+905364347663 (اسطنبول)', en: '+905364347663 (Istanbul)'},
+            {ar: '+9647728600400', en: '+9647728600400'},
         ]
     },
 }

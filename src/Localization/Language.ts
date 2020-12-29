@@ -1,9 +1,9 @@
-import { ILocals } from "./Locals";
+import {clearCachedLocals, ILocals} from "./Locals";
 
 export interface LocalString {
     ar: string;
     en: string;
-};
+}
 
 const RTL_LANGUAGES = ["ar"];
 
@@ -17,6 +17,7 @@ const LANGUAGE_KEY = "__LANGUAGE";
 
 
 let _language: SupportedLanguage | null = null;
+
 export function getCurrentLanguage(): SupportedLanguage {
     if (!_language) {
         const lang = localStorage[LANGUAGE_KEY];
@@ -29,6 +30,7 @@ export function getCurrentLanguage(): SupportedLanguage {
 export function setLanguage(language: SupportedLanguage): void {
     localStorage[LANGUAGE_KEY] = language;
     _language = null;
+    clearCachedLocals();
     window.dispatchEvent(new Event(CHANGE_LANGUAGE_EVENT_NAME));
 }
 

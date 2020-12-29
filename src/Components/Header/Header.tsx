@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import {AppActionComponentFactory} from "../../AppDescriptor/AppActionDescriptor/AppActionComponentFactory";
 import {AppDescriptorActionType, AppMetadataDescriptor, MenuDescriptor} from "../../AppDescriptor/AppDescriptor";
 import {getCurrentLanguage} from "../../Localization/Language";
-import {Locals} from "../../Localization/Locals";
+import {getLocals} from "../../Localization/Locals";
 
 interface Props {
     metadata: AppMetadataDescriptor;
@@ -19,7 +19,7 @@ export class Header extends React.Component<Props> {
         const lang = getCurrentLanguage();
 
         const options = (displayHome ? [{
-            title: {ar: Locals.home, en: Locals.home},
+            title: {ar: getLocals().home, en: getLocals().home},
             action: {type: AppDescriptorActionType.ROUTE, value: "/"}
         }] : []).concat(menu.options);
 

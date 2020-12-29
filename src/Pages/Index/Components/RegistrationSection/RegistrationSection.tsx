@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {SectionTitle} from "../../../../Components/SectionTitle/SectionTitle";
-import {Locals} from "../../../../Localization/Locals";
+import {getLocals} from "../../../../Localization/Locals";
 import RegistrationForm from "./RegistrationForm";
 
 class RegistrationSection extends Component {
@@ -8,7 +8,7 @@ class RegistrationSection extends Component {
         return (
             <section className={'bg-gray-700 p-4 md:p-8 lg:p-16 xl:p-24'}>
                 <div className={"mx-auto container"}>
-                    <SectionTitle title={Locals.register}/>
+                    <SectionTitle title={getLocals().register}/>
                     <RegistrationForm/>
                 </div>
             </section>

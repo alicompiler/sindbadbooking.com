@@ -33,16 +33,25 @@ interface ILocals {
 }
 
 
-const lang = getCurrentLanguage();
+let _locals: ILocals | null = null;
 
-let _locals: ILocals;
-
-if (lang === "ar") {
-    _locals = ArabicLocals;
-} else {
-    _locals = EnglishLocals;
+export function clearCachedLocals() {
+    _locals = null;
 }
 
+export function getLocals() {
+    if (_locals) {
+        return _locals;
+    }
+    const lang = getCurrentLanguage();
+    if (lang === "ar") {
+        _locals = {...ArabicLocals};
+    } else {
+        _locals = {...EnglishLocals};
+    }
+
+    return _locals;
+}
 
 export {_locals as Locals}
 export type {ILocals}
