@@ -1,13 +1,14 @@
-import { AppMetadataDescriptor } from './../AppDescriptor';
+import {AppMetadataDescriptor} from '../AppDescriptor';
+
 export const metadata: AppMetadataDescriptor = {
     copyrightText: {
-        ar: '© 2021 طريق الافق',
-        en: '© 2021 Tareek Alofuk'
+        ar: '© 2021 بوابة السندباد',
+        en: '© 2021 Sindbad Travel Portal'
     },
     logo: '/res/logo.png',
     title: {
-        ar: 'طريق الافق',
-        en: 'Tareek Alofuk',
+        ar: 'بوابة السندباد',
+        en: 'Sindbad Travel Portal',
     },
     slogan: {
         en: "Your Travel Experience In A Different Way",

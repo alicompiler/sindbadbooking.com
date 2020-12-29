@@ -2,6 +2,7 @@ import * as React from "react";
 import {getCurrentLanguage} from "../../Localization/Language";
 import {AppMetadataDescriptor, ContactInfo} from "../../AppDescriptor/AppDescriptor";
 import ContactInformation from "../ContactInformation/ContactInformation";
+import SocialMediaBarContainer from "../SocialMediaBar/SocialMediaBarContainer";
 
 interface Props {
     metadata: AppMetadataDescriptor;
@@ -15,6 +16,7 @@ export class Footer extends React.Component<Props> {
         const lang = getCurrentLanguage();
         return <footer className={'p-24 bg-gray-800 text-white'}>
             <ContactInformation contactInfo={contactInfo}/>
+            <SocialMediaBarContainer/>
             <h3 className={'text-xl text-center mt-16'}>{metadata.copyrightText[lang]}</h3>
         </footer>
     }
