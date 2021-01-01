@@ -1,7 +1,6 @@
 import React from "react";
 import {AppDescriptor} from "../../../../AppDescriptor/AppDescriptor";
 import HeaderContainer from "./../../../../Components/Header/HeaderContainer";
-import SocialMediaBarContainer from "./../../../../Components/SocialMediaBar/SocialMediaBarContainer";
 
 import {ImagesComponent} from "./ImagesComponent";
 import {LoginForm} from "./LoginForm";
@@ -13,7 +12,7 @@ interface Props {
 export class MainContent extends React.Component<Props> {
 
     render(): any {
-        return <div className={'flex flex-col w-full'}>
+        return <div className={'flex z-50 flex-col w-full'}>
             <div style={{zIndex: 100}}>
                 <HeaderContainer/>
             </div>
@@ -26,9 +25,6 @@ export class MainContent extends React.Component<Props> {
                         <ImagesComponent/>
                     </div>
                 </div>
-            </div>
-            <div style={{zIndex: 100}}>
-                <SocialMediaBarContainer/>
             </div>
         </div>
     }

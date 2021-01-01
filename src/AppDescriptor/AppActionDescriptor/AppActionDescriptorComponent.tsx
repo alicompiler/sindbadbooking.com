@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { getCurrentLanguage, setLanguage, SupportedLanguage } from "../../Localization/Language";
-import { AppActionDescriptor } from "../AppDescriptor";
+import {Link} from "react-router-dom";
+import {getCurrentLanguage, setLanguage, SupportedLanguage} from "../../Localization/Language";
+import {AppActionDescriptor} from "../AppDescriptor";
 
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
     onClick?: () => void;
 }
 
-export abstract class AppActionComponent extends React.Component<Props>{
+export abstract class AppActionComponent extends React.Component<Props> {
 
     render(): any {
         const Wrapper = this.getWrapper();
@@ -50,6 +50,18 @@ export class DomIdAppAction extends AppActionComponent {
         return {
             onClick: () => this.props.onClick?.(),
             href: this.props.action.value
+        }
+    }
+}
+
+export class NewTabLinkAction extends DomIdAppAction {
+    getWrapperProps(): any {
+        return {
+            onClick: () => {
+                const lang = getCurrentLanguage();
+                const link = typeof this.props.action.value === "string" ? this.props.action.value : this.props.action.value[lang];
+                window.open(link, "_blank");
+            }
         }
     }
 }

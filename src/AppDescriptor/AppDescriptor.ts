@@ -55,7 +55,8 @@ export interface MenuOption {
 export enum AppDescriptorActionType {
     ROUTE = "ROUTE",
     DOM_ID = "DOM_ID",
-    CHANGE_LANGUAGE = "CHANGE_LANGUAGE"
+    CHANGE_LANGUAGE = "CHANGE_LANGUAGE",
+    NEW_TAB_LINK = "NEW_TAB_LINK",
 }
 
 export interface AppActionDescriptor {

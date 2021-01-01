@@ -5,7 +5,7 @@ export class LoginForm extends React.Component {
     render() {
         return (
             <form action={'https://b2b.sindbadbooking.com/index.php/login/post'} method={'POST'}
-                  className={'flex items-center flex-col bg-white p-8 rounded bg-gray-200'}>
+                  className={'flex items-center flex-col bg-white p-8 rounded bg-gray-200 text-black'}>
 
                 <input required className={'form-input p-2 rounded mb-4'} style={{width: 280}}
                        name={'root'}
@@ -20,7 +20,7 @@ export class LoginForm extends React.Component {
                 <input type="submit" hidden value="submit"/>
 
                 <button type="submit"
-                        className={'p-4 w-40 text-center bg-orange-500 hover:bg-orange-700 rounded'}>
+                        className={'p-4 w-40 text-center bg-indigo-500 hover:bg-indigo-700 text-white rounded'}>
                     {getLocals().login}
                 </button>
 

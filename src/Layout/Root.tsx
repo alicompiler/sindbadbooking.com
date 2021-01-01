@@ -43,7 +43,6 @@ export class Root extends React.Component<any, State> {
 
     render() {
         const { app, loading, error } = this.state;
-        //TODO : display error message and loading message
 
         if (loading) {
             return <h1>LOADING</h1>

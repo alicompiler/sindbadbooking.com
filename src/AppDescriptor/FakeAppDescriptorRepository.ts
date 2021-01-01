@@ -24,8 +24,7 @@ const appDescriptor: AppDescriptor = {
     menu: menu,
     contactInfo: {
         emails: [
-            'me@tareekofuk.com',
-            'dv@tareekofuk.com'
+            'info@sindbadbooking.com',
         ],
         addresses: [
             {ar: 'العراق - بغداد - المنصور', en: 'Iraq - Baghdad - Almansoor'},

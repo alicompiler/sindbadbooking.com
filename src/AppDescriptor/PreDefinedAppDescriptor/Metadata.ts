@@ -7,7 +7,7 @@ export const metadata: AppMetadataDescriptor = {
     },
     logo: '/res/logo.png',
     title: {
-        ar: 'بوابة السندباد',
+        ar: 'بوابة السفر السندباد',
         en: 'Sindbad Travel Portal',
     },
     slogan: {
